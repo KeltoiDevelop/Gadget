@@ -1,0 +1,95 @@
+div.slide
+{
+	background:transparent;
+	position:relative;
+	display:block;
+}
+
+div.slide img
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:0;
+	display:none;
+}
+
+div.slide span.nav-content
+{
+	width:100%;
+	height:34px;
+	background:transparent;
+	position:absolute;
+	top:45%;
+	z-index:2;
+}
+
+div.slide span.nav-content div.nav-left
+{
+	background-image:url('../img/left.png');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	float:left;
+}
+
+div.slide span.nav-content div.nav-right
+{
+	background-image:url('../img/right.png');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	float:right;
+}
+
+div.slide span.nav-content div.nav
+{
+	height:100%;
+	width:34px;
+	border-radius:50%;
+}
+
+div.slide span.nav-content div.nav:hover
+{
+	cursor:pointer;
+}
+
+div.slide span.dot-content
+{
+	width:100%;
+	height:13px;
+	position:absolute;
+	top:2%;
+	z-index:2;
+	text-align:center;
+}
+
+div.slide span.dot-content ul.dot
+{
+	display:inline-block;
+	list-style-type:none;
+	position:relative;
+	padding:0;
+	margin:0;
+	width:auto;
+	height:100%;
+	text-align:center;
+}
+
+div.slide span.dot-content ul.dot li
+{
+	width:0.6em;
+	height:0.6em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	border-radius:50%;
+	float:left;
+}
+
+div.slide span.dot-content ul.dot li.free
+{
+	background-color:gray;
+}
+
+div.slide span.dot-content ul.dot li.focus
+{
+	background-color:black;
+}
