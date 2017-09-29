@@ -1,0 +1,38 @@
+header
+{
+	background-color:rgb(34,55,89);
+}
+
+header div.menu-container
+{	
+	background-color:rgb(34,55,89);
+	color:white;
+}
+
+header div.menu-container li:hover
+{
+	background-color:white;
+	color:rgb(34,55,89);
+}
+
+body
+{
+	margin:0;
+	font-family:Arial;
+}
+
+@media (max-width:799px) and (min-width:500px)
+{
+	header div.menu-container
+	{
+		left:90%;
+	}
+}
+
+@media (max-width:499px) 
+{
+	header div.menu-container
+	{
+		left:87%;
+	}
+}
