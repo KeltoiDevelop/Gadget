@@ -1,0 +1,333 @@
+header
+{
+	width:100%;
+}
+
+div.logo-container
+{
+	position:relative;
+	display:inline;
+	padding:0;
+}
+
+div.logo-container div.logo
+{
+	background-image:url('../img/logo.png');
+	background-repeat:cover;
+	background-size:100% 100%;
+}
+
+.pos-left
+{
+	float:left;
+}
+
+.pos-right
+{
+	float:right;
+}
+
+.pos-middle
+{
+	margin:auto;
+}
+
+header.small-header div.logo-container div.logo
+{
+	height:100%;
+	float:left;
+	position:relative;
+}
+
+header
+{
+	width:100%;
+	position:relative;
+}
+
+header div.menu-container
+{
+	width:100%;
+	position:absolute;
+}
+
+header div.menu-container ul
+{
+	list-style-type:none;
+	list-style:none;
+	text-decoration:none;
+	padding:0;
+	margin:0;
+	display:inline-block;
+	width:auto;
+}
+
+header div.menu-container ul li
+{
+	margin:0;
+	list-style-type:none;
+	text-align:center;
+	height:100%;
+	float:left;
+	padding:0px 8px;
+}
+
+header div.menu-container ul li span
+{
+	display:inline-block;
+	position:relative;
+	top:25%;
+}
+
+header div.menu-container ul li:hover
+{
+	cursor:pointer;
+}
+
+@media (min-width:800px)
+{
+	header.small-header
+	{
+		height:89px;
+	}
+	
+	header.small-header div.menu-container
+	{
+		position:relative;
+		width:auto;
+		height:100%;
+		float:right;
+	}
+	
+	header.medium-header
+	{
+		height:144px;
+	}
+	
+	header.medium-header div.menu-container
+	{
+		top:144px;
+	}
+	
+	header.large-header
+	{
+		height:233px;
+	}
+	
+	header.large-header div.menu-container
+	{
+		top:233px;
+	}
+
+	header.small-header div.logo-container div.logo
+	{
+		width:144px;
+	}
+	
+	header.medium-header div.logo-container div.logo
+	{
+		width:233px;
+		height:144px;
+	}	
+	
+	header.large-header div.logo-container div.logo
+	{
+		width:377px;
+		height:233px;
+	}
+	
+	header.medium-header div.menu-container.small, header.large-header div.menu-container.small
+	{
+		height:21px;
+	}
+
+	header.medium-header div.menu-container.medium, header.large-header div.menu-container.medium
+	{
+		height:34px;
+	}
+
+	header.medium-header div.menu-container.large, header.large-header div.menu-container.large
+	{
+		height:55px;
+	}
+	
+	header div.menu-container ul
+	{
+		display:inline-block;
+	}
+	
+	header.small-header div.menu-container ul li span
+	{
+		top:40%;
+	}
+}
+
+@media (max-width:799px) and (min-width:500px)
+{
+	header.small-header
+	{
+		height:55px;
+	}
+	
+	header.medium-header
+	{
+		height:89px;
+	}
+	
+	header.large-header
+	{
+		height:144px;
+	}
+
+	header.small-header div.logo-container div.logo
+	{
+		width:89px;
+	}
+	
+	header.medium-header div.logo-container div.logo
+	{
+		width:144px;
+		height:89px;
+	}
+	
+	header.large-header div.logo-container div.logo
+	{
+		width:233px;
+		height:144px;
+	}
+	
+	div.menu-container
+	{
+		background-image:url(../img/hamb.png);
+		background-repeat:cover;
+		background-size:100% 100%;
+	}
+	
+	header.medium-header div.menu-container, header.small-header div.menu-container, header.large-header div.menu-container 
+	{
+		border-radius:5px;
+		position:absolute;
+	}
+	
+	header.medium-header div.menu-container:hover, header.small-header div.menu-container:hover, header.large-header div.menu-container:hover
+	{
+		cursor:pointer;
+	}
+	
+	header.large-header div.menu-container
+	{
+		width:34px;
+		height:34px;
+		top:55px;
+	}
+	
+	header.medium-header div.menu-container
+	{
+		width:34px;
+		height:34px;
+		top:25px;
+	}
+	
+	header.small-header div.menu-container
+	{
+		width:25px;
+		height:25px;
+		top:15px;
+	}
+	
+	header div.menu-container ul
+	{
+		width:100%;
+		left:0;
+		position:fixed;
+		background-color:inherit;
+	}
+	
+	header.small-header ul
+	{
+		top:55px;
+	}
+	
+	header.medium-header ul
+	{
+		top:89px;
+	}
+	
+	header.large-header ul
+	{
+		top:144px;
+	}
+	
+	header div.menu-container ul li
+	{
+		height:21px;
+		width:100%;
+	}
+
+	header div.menu-container ul.hamburguer
+	{
+		display:none;
+	}
+	
+	header.small-header div.menu-container ul li span
+	{
+		top:0;
+	}
+}
+
+@media (max-width:499px)
+{
+	header
+	{
+		height:55px;
+	}
+	
+	header div.logo-container div.logo
+	{
+		width:89px;
+		height:55px;
+	}
+	
+	header div.menu-container
+	{
+		background-image:url(../img/hamb.png);
+		background-repeat:cover;
+		background-size:100% 100%;
+		border-radius:5px;
+		position:absolute;
+		width:25px;
+		height:25px;
+		top:15px;
+	}
+	
+	header.medium-header div.menu-container:hover, header.small-header div.menu-container:hover, header.large-header div.menu-container:hover
+	{
+		cursor:pointer;
+	}
+	
+	header div.menu-container ul.hamburguer
+	{
+		display:none;
+	}
+	
+	header div.menu-container ul
+	{
+		top:55px;
+		width:100%;
+		left:0;
+		position:fixed;
+		background-color:inherit;
+	}
+	
+	header div.menu-container ul li
+	{
+		width:100%;
+	}
+	
+	header div.menu-container ul li span
+	{
+		top:0;
+	}
+}
+
+
