@@ -1,170 +1,17 @@
 <html>
 	<head>
 		<meta charset='utf-8' />
-		<title>Keltoi Gadget</title>
+		<title>Keltoi Block</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 		<link rel='stylesheet' type='text/css'  href='css/block.css' />
-		<style>
-			body
-			{
-				font-family:'Roboto', sans-serif;
-				margin:0;
-			}
-			
-			.logo
-			{
-				width:233px;
-				height:233px;
-			}
-			
-			.linkStyle
-			{
-				width:100%;
-				text-align:center;
-				color:black;
-				top:45%;
-			}
-			
-			.linkStyle:hover
-			{
-				cursor:pointer;
-			}
-			
-			.bottom
-			{
-				top:50%;
-			}
-			
-			.blue
-			{
-				background-color:rgb(8,13,34);
-			}
-			
-			.red
-			{
-				background-color:rgb(34,34,34);
-			}
-			
-			.green
-			{
-				background-color:rgb(8,34,13);
-			}
-			
-			.banner
-			{
-				width:100%;
-				position:absolute;
-				color:white;
-				text-align:center;
-				top:20px;
-				color:rgb(200,200,255);
-			}
-			
-			.super-text
-			{
-				width:100%;
-				text-align:center;
-				color:rgb(200,200,255);
-			}	
-		
-			@media (min-width:1300px)
-			{
-				.banner
-				{
-					font-size:21px;
-				}
-				
-				.super-text
-				{
-					font-size:89px;
-				}			
-				
-				.linkStyle
-				{
-					font-size:55px;
-				}			
-			}
-		
-			@media (min-width:800px) and (max-width:1299px)
-			{			
-				.banner
-				{
-					font-size:13px;
-				}
-			
-				.super-text
-				{
-					font-size:55px;
-				}
-				
-				.linkStyle
-				{
-					font-size:34px;
-				}
-			}
-			
-			@media (min-width:500px) and (max-width:799px)
-			{
-			
-				.banner
-				{
-					font-size:8px;
-				}
-			
-				.super-text
-				{
-					font-size:34px;
-				}
-				
-				.linkStyle
-				{
-					font-size:21px;
-				}
-			}
-			
-			@media (min-width:300px) and (max-width:499px)
-			{
-				.banner
-				{
-					font-size:5px;
-				}
-				
-				.super-text
-				{
-					font-size:21px;
-				}
-				
-				.linkStyle
-				{
-					font-size:13px;
-				}
-			}
-			
-			@media (max-width:299px)
-			{
-				.banner
-				{
-					font-size:3px;
-				}
-				
-				.super-text
-				{
-					font-size:13px;
-				}
-				
-				.linkStyle
-				{
-					font-size:8px;
-				}
-			}			
-		</style>
+		<link rel='stylesheet' type='text/css' href='css/index.css' />
 		<script src='js/jquery.min.js' type='text/javascript'></script>
 		<script src='js/animotion.js?v=3' type='text/javascript'></script>
 	</head>
 	<body>
 		<div class='block paralax full h-large align-line' style='background-image:url("img/img002.png")'>
 			<span class='text super-text'>
-				<h1>KELTOI GADGET</h1>
+				<h1>KELTOI BLOCK</h1>
 			</span>
 		</div>
 		
@@ -185,7 +32,7 @@
 			<div class='board red'>
 				<span class='text banner'>
 					<h5>Focus on content</h5>
-					<p>Avoid annoying visual effects. Keltoi Gadget presents the very same animations you see in this page, focusing on your brand, content and web performance.</p>
+					<p>Avoid annoying visual effects. Keltoi Block presents the very same animations you see in this page, focusing on your brand, content and web performance.</p>
 				</span>
 			</div>
 		</div>			
@@ -198,16 +45,15 @@
 			</div>
 		</div>			
 
-		<div class='block h-large align-line full' id='smart'>
+		<div class='block h-large align-line full' id='source'>
 			<img class='background' src='img/img003.png' alt='Code' />
-			<span class='text linkStyle'>Click here</span>
+			<span class='text source-block'>Click here</span>
 		</div>			
 		
-		<div class='block h-large align-line full' id='bitcoin'>
-			<img class='background' src='img/img004.png' alt='Bitcoin accept here' />
-			<span class='text'></span>
+		<div class='block h-large align-line full' id='keltoi' >
+			<img class='background fade' src='img/logo_plain.png' alt='Code' />
+			<span class='text keltoi-block' ></span>
 		</div>
-
 	</body>
 	<script>
 		function callAnimotionOne()
@@ -215,27 +61,25 @@
 			var obj = $("div#alternate");
 			var fade = new ClickFadeChange(obj,"Made for business");
 			fade.setTextFade(3000,"<img src='img/logo.png' class='logo' />");
-			
 		}
 		
 		function callAnimotionTwo()
 		{
-			var obj = $("div#smart");
-			var fade = new ClickFadeChange(obj,"to <a href='http://google.com'>download</a> the source");
+			var obj = $("div#source");
+			var fade = new ClickFadeChange(obj,"to <a href='https://github.com/KeltoiDevelop/Gadget/'>download</a> the source");
 			fade.setTextAnimotion(0.33,500);
 		}
 		
 		function callAnimotionThree()
 		{
-			var obj = $("div#bitcoin");
-			var fade = new ClickFadeChange(obj,"We accept");
-			fade.setTextTimer(4000,'BITCOIN HERE');		
+			var obj = $("div#keltoi");
+			var fade = new ClickFadeChange(obj,"This site is a sample");
+			fade.setTextTimer(4000,'for more info consult:<a href="http://keltoisites.com">keltoisites</a>');		
 		}
 		
 	
 		callAnimotionOne();
 		callAnimotionTwo();
 		callAnimotionThree();
-		
 	</script>
 </html>

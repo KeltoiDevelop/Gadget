@@ -1,0 +1,190 @@
+body
+{
+	font-family:'Roboto', sans-serif;
+	margin:0;
+}		
+		
+.fade
+{
+	opacity:0.4;
+}
+
+.blue
+{
+	background-color:rgb(8,13,34);
+}
+
+.red
+{
+	background-color:rgb(34,34,34);
+}
+
+.green
+{
+	background-color:rgb(8,34,13);
+}
+
+.bottom
+{
+	top:50%;
+}
+
+.keltoi-block
+{
+	width:100%;
+	text-align:center;
+	color:rgb(89,55,34);
+	top:45%;
+	font-size:89px;
+}
+
+.source-block
+{
+	width:100%;
+	text-align:center;
+	color:black;
+	top:45%;
+}
+
+.source-block:hover
+{
+	cursor:pointer;
+}
+
+.banner
+{
+	width:100%;
+	position:absolute;
+	color:white;
+	text-align:center;
+	top:20px;
+	color:rgb(200,200,255);
+}
+
+.super-text
+{
+	width:100%;
+	text-align:center;
+	color:rgb(200,200,255);
+}	
+
+@media (min-width:1300px)
+{
+	.banner
+	{
+		font-size:21px;
+	}
+	
+	.super-text
+	{
+		font-size:89px;
+	}			
+	
+	.source-block, .keltoi-block
+	{
+		font-size:55px;
+	}		
+
+	.logo
+	{
+		width:233px;
+		height:233px;
+	}				
+}
+
+@media (min-width:800px) and (max-width:1299px)
+{			
+	.banner
+	{
+		font-size:13px;
+	}
+
+	.super-text
+	{
+		font-size:55px;
+	}
+	
+	.source-block, .keltoi-block
+	{
+		font-size:34px;
+	}
+	
+	.logo
+	{
+		width:144px;
+		height:144px;
+	}				
+}
+
+@media (min-width:500px) and (max-width:799px)
+{
+
+	.banner
+	{
+		font-size:8px;
+	}
+
+	.super-text
+	{
+		font-size:34px;
+	}
+	
+	.source-block, .keltoi-block
+	{
+		font-size:21px;
+	}
+	
+	.logo
+	{
+		width:89px;
+		height:89px;
+	}
+}
+
+@media (min-width:300px) and (max-width:499px)
+{
+	.banner
+	{
+		font-size:5px;
+	}
+	
+	.super-text
+	{
+		font-size:21px;
+	}
+	
+	.source-block, .keltoi-block
+	{
+		font-size:13px;
+	}
+	
+	.logo
+	{
+		width:55px;
+		height:55px;
+	}				
+}
+
+@media (max-width:299px)
+{
+	.banner
+	{
+		font-size:3px;
+	}
+	
+	.super-text
+	{
+		font-size:13px;
+	}
+	
+	.source-block, .keltoi-block
+	{
+		font-size:8px;
+	}
+	
+	.logo
+	{
+		width:34px;
+		height:34px;
+	}				
+}			
