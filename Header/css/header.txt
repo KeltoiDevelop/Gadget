@@ -73,7 +73,7 @@ ul.menu li div.dropdown
 
 div.logo-content div.logo
 {
-	background-image:url("../img/logo.png");
+	background-image:url("img/logo.png");
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:100% 100%;	
@@ -277,12 +277,12 @@ header.medium div.logo-content, header.large div.logo-content
 		height:68px;
 	}
 	
-	header.small div.logo-content.landscape
+	header.small div.logo-content.portrait
 	{
 		width:89px;
 	}
 	
-	header.small div.logo-content.portrait
+	header.small div.logo-content.landscape
 	{
 		width:34px;
 	}
@@ -337,7 +337,7 @@ header.medium div.logo-content, header.large div.logo-content
 		font-size:13px;
 		height:34px;
 		width:34px;
-		background-image:url("../img/hamb.png");
+		background-image:url("img/hamb.png");
 		background-repeat:no-repeat;
 		background-position:center;
 		background-size:cover;
@@ -390,12 +390,12 @@ header.medium div.logo-content, header.large div.logo-content
 		height:55px;
 	}
 	
-	header.small div.logo-content.landscape
+	header.small div.logo-content.portrait
 	{
 		width:55px;
 	}
 	
-	header.small div.logo-content.portrait
+	header.small div.logo-content.landscape
 	{
 		width:21px;
 	}

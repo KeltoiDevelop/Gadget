@@ -1,13 +1,19 @@
-function seeMenuHamburguer(element)
+
+
+function setHamburguer(element)
 {
-	var ul = $(element).children("ul");
-	
-	if ($(ul).hasClass('hamburguer'))
-	{	
-		$(ul).removeClass('hamburguer');	
-	}
-	else
+	if (window.innerWidth<800)
 	{
-		$(ul).addClass('hamburguer');
+		var ul = $(element).children("ul");
+		var invisible = $(ul).hasClass("hamburguer");
+		
+		if (invisible)
+		{
+			$(ul).removeClass("hamburguer");
+		}
+		else
+		{
+			$(ul).addClass("hamburguer");
+		}
 	}
 }

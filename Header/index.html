@@ -1,31 +1,34 @@
 <html>
 	<head>
-		<meta charset='utf-8' />
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-		<title>SAMPLE</title>
-		<link href='css/header.css' rel='stylesheet' type='text/css' />
-		<link href='css/footer.css' rel='stylesheet' type='text/css' />
-		<link href='css/index.css' rel='stylesheet' type='text/css' />
+		<title>Keltoi Gadget - Menu Item</title>
+		<link href="img/logo.png" rel='icon' type='image/x-icon' />
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="css/header.css" rel='stylesheet' type='text/css'>
+		<link href="css/index.css" rel='stylesheet' type='text/css'>
 		<script type='text/javascript' src='js/jquery.min.js'></script>
 		<script type='text/javascript' src='js/header.js'></script>
 	</head>
 	<body>
-		<header class='small-header'>
-			<div class='logo-container'>
-				<div class='logo pos-left'></div>
+		<header class='small'>
+			<div class='logo-content landscape on-left'>
+				<div class='logo full'></div>
 			</div>
-			<div class='menu-container large' onclick='seeMenuHamburguer(this)'>
-				<ul class='hamburguer'>
-					<li><span>Home</span></li>
-					<li><span>About</span></li>
-					<li><span>Services</span></li>
-					<li><span>Produts And Services</span>
-					<li><span>Mail Us</span></li>
+			<div class='menu-content large golden-ratio on-right hamburguer-right' onclick='setHamburguer(this)'>
+				<ul class='menu on-right hamburguer'>
+					<li><a class='root'>HOME</a></li>
+					<li>
+						<a class='root'>PRODUCTS</a>
+						<div class='dropdown'>
+							<a><span>ONE PAGE</span></a>
+							<a><span>MULTI PAGE</span></a>
+							<a><span>E-COMMERCE</span></a>
+							<a><span>E-MAGAZINE</span></a>
+							<a><span>OUTSOURCING</span></a>
+						</div>
+					</li>
+					<li><a class='root' href='mailto:contato@keltoisites.com'>MAIL</a></li>
 				</ul>
 			</div>
-		</header>	
-		<footer>
-			
-		</footer>
+		</header>
 	</body>
 </html>

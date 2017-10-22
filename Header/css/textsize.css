@@ -1,0 +1,226 @@
+.text-center
+{
+	text-align:center;
+}
+
+.text-right
+{
+	text-align:right;
+}
+
+.text-left
+{
+	text-align:left;
+}
+
+@media (min-width:800px)
+{
+	.font-tiny
+	{
+		font-size:8px;
+	}
+	
+	.font-tiny h1
+	{
+		font-size:13px;
+	}
+
+	.font-small
+	{
+		font-size:13px;
+	}
+	
+	.font-small h1
+	{
+		font-size:21px;
+	}
+	
+	.font-medium
+	{
+		font-size:21px;
+	}
+
+	.font-medium h1
+	{
+		font-size:34px;
+	}
+	
+	.font-large
+	{
+		font-size:34px;
+	}
+	
+	.font-large h1
+	{
+		font-size:55px;
+	}
+	
+	.font-giant
+	{
+		font-size:55px;
+	}
+	
+	.font-giant
+	{
+		font-size:89px;
+	}
+}
+
+@media (min-width:500px) and (max-width:799px)
+{
+	.font-tiny
+	{
+		font-size:5px;
+	}
+	
+	.font-tiny h1
+	{
+		font-size:8px;
+	}
+
+	.font-small
+	{
+		font-size:8px;
+	}
+	
+	.font-small h1
+	{
+		font-size:13px;
+	}
+	
+	.font-medium
+	{
+		font-size:13px;
+	}
+
+	.font-medium h1
+	{
+		font-size:21px;
+	}
+	
+	.font-large
+	{
+		font-size:21px;
+	}
+	
+	.font-large h1
+	{
+		font-size:34px;
+	}
+	
+	.font-giant
+	{
+		font-size:34px;
+	}
+	
+	.font-giant
+	{
+		font-size:55px;
+	}
+}
+
+@media (min-width:300px) and (max-width:499px)
+{
+	.font-tiny
+	{
+		font-size:3px;
+	}
+	
+	.font-tiny h1
+	{
+		font-size:5px;
+	}
+
+	.font-small
+	{
+		font-size:5px;
+	}
+	
+	.font-small h1
+	{
+		font-size:8px;
+	}
+	
+	.font-medium
+	{
+		font-size:8px;
+	}
+
+	.font-medium h1
+	{
+		font-size:13px;
+	}
+	
+	.font-large
+	{
+		font-size:13px;
+	}
+	
+	.font-large h1
+	{
+		font-size:21px;
+	}
+	
+	.font-giant
+	{
+		font-size:21px;
+	}
+	
+	.font-giant
+	{
+		font-size:34px;
+	}
+}
+
+@media (max-width:299px)
+{
+	.font-tiny
+	{
+		font-size:2px;
+	}
+	
+	.font-tiny h1
+	{
+		font-size:3px;
+	}
+
+	.font-small
+	{
+		font-size:3px;
+	}
+	
+	.font-small h1
+	{
+		font-size:5px;
+	}
+	
+	.font-medium
+	{
+		font-size:5px;
+	}
+
+	.font-medium h1
+	{
+		font-size:8px;
+	}
+	
+	.font-large
+	{
+		font-size:8px;
+	}
+	
+	.font-large h1
+	{
+		font-size:13px;
+	}
+	
+	.font-giant
+	{
+		font-size:13px;
+	}
+	
+	.font-giant
+	{
+		font-size:21px;
+	}
+}			

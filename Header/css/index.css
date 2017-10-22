@@ -1,38 +1,37 @@
-header
+header, ul.menu, div.dropdown
 {
 	background-color:rgb(34,55,89);
 }
 
-header div.menu-container
-{	
-	background-color:rgb(34,55,89);
+div.menu-content ul.menu li a, div.menu-content ul li div.dropdown a
+{
 	color:white;
 }
 
-header div.menu-container li:hover
+div.menu-content ul li:hover,div.menu-content ul li div.dropdown a:hover
 {
+	color:black;
 	background-color:white;
-	color:rgb(34,55,89);
+}
+
+div.menu-content ul li:hover a
+{
+	color:black;
 }
 
 body
 {
-	margin:0;
-	font-family:Arial;
+	font-family:'Lato', sans-serif;
+	margin:0px;
 }
 
-@media (max-width:799px) and (min-width:500px)
+@media (max-width:799px)
 {
-	header div.menu-container
+	div.menu-content
 	{
-		left:90%;
+		margin-right:10px;
+		margin-top:10px;
+		display:inline-block;
 	}
-}
-
-@media (max-width:499px) 
-{
-	header div.menu-container
-	{
-		left:87%;
-	}
+	
 }
