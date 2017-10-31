@@ -3,6 +3,7 @@ footer
 	width:100%;
 	background-color:rgb(34,55,89);
 	text-align:center;
+	float:right;
 }
 
 footer span
